@@ -12,6 +12,13 @@
         layout="@layout/toolbar"
         android:id="@+id/soundboard_toolbar"/>
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/soundboardRecyclerView"
+        android:layout_below="@+id/soundboard_toolbar">
+
+    </android.support.v7.widget.RecyclerView>
 
 
 
